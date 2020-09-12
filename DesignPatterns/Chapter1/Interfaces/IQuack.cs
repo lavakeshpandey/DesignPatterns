@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Chapter1.Interfaces
 {
-    interface FlyBehavior
+    public interface IQuack
     {
-        void Fly();
+        public void Quack();
     }
 }

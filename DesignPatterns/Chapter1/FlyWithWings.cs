@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Chapter1
 {
-    public class FlyWithWings : FlyBehavior
+    public class FlyWithWings : IFly
     {
         public void Fly()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"I'm flying.");
         }
     }
 }

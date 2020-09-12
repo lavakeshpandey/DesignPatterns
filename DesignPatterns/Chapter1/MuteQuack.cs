@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Chapter1
 {
-    class MuteQuack : QuackBehavior
+    class MuteQuack : IQuack
     {
         public void Quack()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"<< Silence >>");
         }
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter1", "Chapter1\Chapter1.csproj", "{1A43C9AA-104C-46B2-9B9E-9F21C01E2099}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniDuckSimulator", "MiniDuckSimulator\MiniDuckSimulator.csproj", "{A3B7032B-937A-4277-BF50-15643E4EC292}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1A43C9AA-104C-46B2-9B9E-9F21C01E2099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A43C9AA-104C-46B2-9B9E-9F21C01E2099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A43C9AA-104C-46B2-9B9E-9F21C01E2099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B7032B-937A-4277-BF50-15643E4EC292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B7032B-937A-4277-BF50-15643E4EC292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B7032B-937A-4277-BF50-15643E4EC292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B7032B-937A-4277-BF50-15643E4EC292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

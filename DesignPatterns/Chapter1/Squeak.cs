@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Chapter1
 {
-    class Squeak : QuackBehavior
+    class Squeak : IQuack
     {
         public void Quack()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Squeak");
         }
     }
 }
